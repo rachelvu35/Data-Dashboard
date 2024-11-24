@@ -1,0 +1,18 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang = "en">
+    <header>
+        <title>Is it New Year's?</title>
+        <link href="{% static 'newyear/styles.css' %}" rel="stylesheet">
+    </header>
+
+    <body>
+        {% if newyear %}
+            <h1>YES</h1>
+        percentage if you want to pass some logic
+        {% else %}
+            <h1>NO</h1>
+        {% endif %}
+        endif is a must in this situation to end condition
+    </body>
+</html>
